@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8906C66D18ED6392006D9BFB /* glm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8906C66B18ED6392006D9BFB /* glm.cpp */; };
+		8983A0B018ECE8F5005D6858 /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8983A0AE18ECE8F5005D6858 /* enemy.cpp */; };
 		89DF504018EB10640037D632 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DF503F18EB10640037D632 /* main.cpp */; };
 		89DF504218EB10640037D632 /* Star_Fire.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89DF504118EB10640037D632 /* Star_Fire.1 */; };
+		89DF504918EB13200037D632 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DF504818EB13200037D632 /* OpenGL.framework */; };
+		89DF504B18EB13270037D632 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DF504A18EB13270037D632 /* GLUT.framework */; };
+		89DF506B18EB58EE0037D632 /* airWing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89DF506918EB58EE0037D632 /* airWing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +30,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8906C66B18ED6392006D9BFB /* glm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glm.cpp; sourceTree = "<group>"; };
+		8906C66C18ED6392006D9BFB /* glm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm.h; sourceTree = "<group>"; };
+		89536E2318ED2BCF0009C08C /* Arwing.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arwing.mtl; sourceTree = "<group>"; };
+		89536E2418ED2BCF0009C08C /* Arwing.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arwing.obj; sourceTree = "<group>"; };
+		8983A0AE18ECE8F5005D6858 /* enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cpp; sourceTree = "<group>"; };
+		8983A0AF18ECE8F5005D6858 /* enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
+		89D5B9B118EDC58700314C04 /* 43C7661D_c.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = 43C7661D_c.bmp; path = models/43C7661D_c.bmp; sourceTree = "<group>"; };
+		89D5B9B218EDC58700314C04 /* 45C73F13_c.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = 45C73F13_c.bmp; path = models/45C73F13_c.bmp; sourceTree = "<group>"; };
+		89D5B9B318EDC58700314C04 /* 71EF1573_c.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = 71EF1573_c.bmp; path = models/71EF1573_c.bmp; sourceTree = "<group>"; };
+		89D5B9B418EDC58700314C04 /* 241A22C_c.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = 241A22C_c.bmp; path = models/241A22C_c.bmp; sourceTree = "<group>"; };
+		89D5B9B518EDC58700314C04 /* 650AB5A1_a.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = 650AB5A1_a.bmp; path = models/650AB5A1_a.bmp; sourceTree = "<group>"; };
+		89D5B9B618EDC58700314C04 /* 650AB5A1_c.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = 650AB5A1_c.bmp; path = models/650AB5A1_c.bmp; sourceTree = "<group>"; };
+		89D5B9B718EDC58700314C04 /* Airwing_grp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Airwing_grp.png; path = models/Airwing_grp.png; sourceTree = "<group>"; };
+		89D5B9B818EDC58700314C04 /* f16.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; name = f16.mtl; path = models/f16.mtl; sourceTree = "<group>"; };
+		89D5B9B918EDC58700314C04 /* f16.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = f16.obj; path = models/f16.obj; sourceTree = "<group>"; };
 		89DF503C18EB10640037D632 /* Star Fire */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Star Fire"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DF503F18EB10640037D632 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		89DF504118EB10640037D632 /* Star_Fire.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Star_Fire.1; sourceTree = "<group>"; };
+		89DF504818EB13200037D632 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		89DF504A18EB13270037D632 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		89DF506918EB58EE0037D632 /* airWing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = airWing.cpp; sourceTree = "<group>"; };
+		89DF506A18EB58EE0037D632 /* airWing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = airWing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +59,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DF504B18EB13270037D632 /* GLUT.framework in Frameworks */,
+				89DF504918EB13200037D632 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89536E2618ED2BE50009C08C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				89D5B9B118EDC58700314C04 /* 43C7661D_c.bmp */,
+				89D5B9B218EDC58700314C04 /* 45C73F13_c.bmp */,
+				89D5B9B318EDC58700314C04 /* 71EF1573_c.bmp */,
+				89D5B9B418EDC58700314C04 /* 241A22C_c.bmp */,
+				89D5B9B518EDC58700314C04 /* 650AB5A1_a.bmp */,
+				89D5B9B618EDC58700314C04 /* 650AB5A1_c.bmp */,
+				89D5B9B718EDC58700314C04 /* Airwing_grp.png */,
+				89D5B9B818EDC58700314C04 /* f16.mtl */,
+				89D5B9B918EDC58700314C04 /* f16.obj */,
+				89536E2318ED2BCF0009C08C /* Arwing.mtl */,
+				89536E2418ED2BCF0009C08C /* Arwing.obj */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		89DF503318EB10640037D632 = {
 			isa = PBXGroup;
 			children = (
-				89DF503E18EB10640037D632 /* Star Fire */,
+				89DF504A18EB13270037D632 /* GLUT.framework */,
+				89DF504818EB13200037D632 /* OpenGL.framework */,
 				89DF503D18EB10640037D632 /* Products */,
+				89DF503E18EB10640037D632 /* Star Fire */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +106,14 @@
 		89DF503E18EB10640037D632 /* Star Fire */ = {
 			isa = PBXGroup;
 			children = (
+				89536E2618ED2BE50009C08C /* models */,
 				89DF503F18EB10640037D632 /* main.cpp */,
+				89DF506918EB58EE0037D632 /* airWing.cpp */,
+				89DF506A18EB58EE0037D632 /* airWing.h */,
+				8983A0AE18ECE8F5005D6858 /* enemy.cpp */,
+				8983A0AF18ECE8F5005D6858 /* enemy.h */,
+				8906C66B18ED6392006D9BFB /* glm.cpp */,
+				8906C66C18ED6392006D9BFB /* glm.h */,
 				89DF504118EB10640037D632 /* Star_Fire.1 */,
 			);
 			path = "Star Fire";
@@ -117,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8906C66D18ED6392006D9BFB /* glm.cpp in Sources */,
 				89DF504018EB10640037D632 /* main.cpp in Sources */,
+				89DF506B18EB58EE0037D632 /* airWing.cpp in Sources */,
+				8983A0B018ECE8F5005D6858 /* enemy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +283,7 @@
 				89DF504718EB10640037D632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
